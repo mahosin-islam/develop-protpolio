@@ -1,12 +1,6 @@
-
-/* nav style */
-nav{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+/* header-dising */
 .header{
-    background-image: url(/images/developer.png), url(/images/header_bg.png);
+    background-image: url(images/developer.png), url(images/header_bg.png);
      background-repeat: no-repeat;
      background-position:top left, bottom right;
      height: 100%;
@@ -18,6 +12,12 @@ nav{
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+}
+         /* nav style */
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 h3{
     font-size: 45px;
@@ -50,7 +50,31 @@ li a{
     font-weight: bold;
     border-radius: 5px;
     border: none;
-}   
+    transition: 2s;
+    text-transform: capitalize;
+  }   
+  .btn:hover{
+  /* transform: scale(1.5); */
+  background: rgb(56, 56, 97);
+}
+.btr{
+  background: #FFFFFF;
+  color:#FD6E0A;
+  border: 1px solid #FD6E0A;
+  font-size: 20px;
+  font-weight: bold;
+}
+         /* socal midea-dising */
+
+.fa-solid-fa-phone{
+color: #FD6E0A;
+font-size: 20px;
+}
+
+.fa-solid-fa-arrow-down{
+color: #FFFFFF;
+font-size: 20px;
+}
          /* bannar-dising */
 
 .bannar-dising{
@@ -68,7 +92,7 @@ h4{
 h1{
     font-size: 85px;
 }
-  /* section-area */
+  /* section-area-1 */
 
   .contain-1{
       width: 1140px;
@@ -83,14 +107,12 @@ h1{
       background: #FFFFFF;
     text-align: center;
     padding-bottom: 10px;
-    
   }
   .child{
     display: flex;
     justify-content: space-between;
   }
           /* containar-2 area */
-
    .containar-2{
     text-align: center;
    }
@@ -99,15 +121,14 @@ h1{
     height: 90px;
     margin: 20px auto;
    }
-      /* section3 */
-
-      .about{
+      /* section-3 area */
+  .about{
         width: 90%;
         margin: 10px auto;
         display: flex;
         gap: 10px;
       }
-      .parent{
+.parent{
        box-shadow: 12px 8px 30px rebeccapurple;
        height: 500px;
        height: 260px;
@@ -115,28 +136,28 @@ h1{
        border-radius: 6px;
        background: #FFFFFF;
       }
-      .java{
+.java{
         margin: 19PX 54PX 54PX 30PX;
       }
-      img{
-        display: block;
-        margin-left: 30px;
-        margin-top: 20px;
-      }   
+ img{
+     display: block;
+    margin-left: 30px;
+     margin-top: 20px;
+     }   
                /* small section area */
-      .small{
+  .small{
         width: 455px;
         height: 48px;
         margin: 10px auto;
       }
-        /* last section */
+         /* last section */
 
-        .last{
-            width: 90%;
-            margin: 10px auto;
-            display: flex;
-            justify-content: space-between;
-        }
+.last{
+      width: 90%;
+      margin: 10px auto;
+     display: flex;
+    justify-content: space-between;
+    }
 .left{
     /* width: 511px ; */
 }
@@ -168,11 +189,12 @@ h1{
 }
 .home{
   margin: 20px auto;
- width: 200px;
+ width: 250px;
   height: 64px;
+  text-transform: capitalize;
 
 }   
-  /* footer area */
+          /* footer area */
   .footer{
     width: 100%;
     height: 600px;
@@ -186,6 +208,26 @@ h1{
   .console{
     width: 450px;
   }
+    /* socalmidea-icon */
+  .fa-brands{
+    font-size: 45px;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+    background: #74b9ff;
+  }
+  .fa-square-facebook{
+     font-size: 45px;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+    background: #0984e3;
+  }
+  .fa-facebook-messenger{
+ font-size: 35px;
+ background: 	#fd79a8;
+  }
+        /* form of footer area */
   form input{
     background: #FFFFFF;
     color: black;
