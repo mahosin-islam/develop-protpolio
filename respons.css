@@ -1,0 +1,280 @@
+/* respons.css */
+
+@media  screen and (max-width:420px) {
+  body{
+    margin: 0;
+    padding:2px;
+    border: 2px solid blue;
+  
+  }
+.header{
+  background-size: cover;
+  padding: 20px 10px;
+}
+nav{
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+}
+h3{
+    font-size: 25px;
+     width: 100%;
+    margin-left: 0;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+nav ul{
+    flex-direction: column;
+    margin-left: 0;
+    align-items: flex-start;
+}
+nav ul li{
+    margin-right:  10px 0;
+    
+}
+.dark-2{
+    color: #474747;
+}
+.btn{
+   margin-top: 20px;
+  }   
+
+.bannar-dising{
+  flex-direction: column;
+margin: 10px auto;
+}
+.bannar-contain{
+width: 100%;
+
+}
+.bannar-contain h2,h1{
+  font-size: 20px;
+}
+.bannar .pictur{
+  width: 100%;
+  margin-top: 10px;
+  padding-right: 50px;
+}
+
+.contain-1{
+      width: 100%;
+     margin: 10px auto;
+     height: auto;
+     padding: 10px 20px;
+}
+.mother{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .child{
+    flex-direction: column;
+
+  }
+  .son{
+    width: 100%;
+  }
+.containar-2{
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+   }
+   .dark3{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin: 10px auto;
+   }
+   .about{
+        width: 100%;
+        margin: 10px auto;
+        flex-direction: column;
+        gap: 10px;
+      }
+.parent{
+      
+width: 100%;
+      }
+ .small{
+        width: 100%;
+        height: auto;
+        
+      }
+
+.last{
+      width: 100%;
+      flex-direction: column;
+
+    }
+    .colon{
+      width: auto;
+      padding: 10px 20px;
+    }
+    .cover{
+      width: auto;
+    }
+
+  .footer{
+    flex-direction: column;
+    height: auto;
+  }
+  .contol{
+    width: 100%;
+  }
+  .console{
+    width: 100%;
+  }
+      }
+ 
+
+/*
+@media screen and (max-width: 390px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .header {
+    background-size: cover;
+    padding: 20px 10px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+  nav h3 {
+    margin-left: 0;
+    font-size: 28px;
+  }
+  nav ul {
+    flex-direction: column;
+    width: 100%;
+  }
+  nav ul li {
+    margin: 10px 0;
+  }
+  .btn {
+    padding: 12px 20px;
+    font-size: 16px;
+  }
+
+  .bannar-dising {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 10px;
+  }
+  .bannar-contain {
+    max-width: 100%;
+    text-align: center;
+    padding: 0 10px;
+  }
+  .bannar-contain h4 {
+    font-size: 24px;
+  }
+  .bannar-contain h1 {
+    font-size: 32px;
+  }
+  .bannar-contain p {
+    font-size: 14px;
+  }
+  .bannar-pictur {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .contain-1 {
+    width: 100%;
+    padding: 60px 20px;
+    margin-top: 20px;
+    box-sizing: border-box;
+  }
+  .contain-1 .mother p {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+  .child {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .child .son {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .containar-2 .dark3 {
+    width: 100%;
+    padding: 0 10px;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .about {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 10px;
+  }
+  .parent {
+    width: 100%;
+    height: auto;
+    box-shadow: none;
+  }
+  .java p {
+    font-size: 14px;
+  }
+
+  .small {
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .last {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+  .left .colon,
+  .right .cover {
+    width: 100%;
+    margin-bottom: 15px;
+    height: auto;
+  }
+  .left h2,
+  .right h2 {
+    font-size: 20px;
+  }
+  .left b,
+  .right b {
+    font-size: 16px;
+  }
+  .left p,
+  .right p {
+    font-size: 14px;
+  }
+
+  .home {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+    height: auto;
+  }
+  .contol, .console {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  form input, .console textarea {
+    width: 100%;
+  }
+  .fa-brands, .fa-square-facebook, .fa-facebook-messenger {
+    margin: 0 5px 10px;
+  }
+}

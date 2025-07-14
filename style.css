@@ -130,8 +130,8 @@ h1{
       }
 .parent{
        box-shadow: 12px 8px 30px rebeccapurple;
-       height: 500px;
-       height: 260px;
+       height: 700px;
+       height: 300px;
        /* border: 2px solid saddlebrown; */
        border-radius: 6px;
        background: #FFFFFF;
@@ -208,7 +208,7 @@ h1{
   .console{
     width: 450px;
   }
-    /* socalmidea-icon */
+    /* socalmidea-icon
   .fa-brands{
     font-size: 45px;
     color: #FFFFFF;
@@ -225,8 +225,8 @@ h1{
   }
   .fa-facebook-messenger{
  font-size: 35px;
- background: 	#fd79a8;
-  }
+ background: 	#fd79a8;  
+  } */
         /* form of footer area */
   form input{
     background: #FFFFFF;
